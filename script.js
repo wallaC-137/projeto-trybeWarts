@@ -1,4 +1,3 @@
-const getLogin = document.getElementsByClassName('login');
 const getBtn = document.getElementById('btn');
 const getEmail = document.getElementById('e-mail');
 const getPass = document.getElementById('senha');
