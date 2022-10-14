@@ -1,7 +1,7 @@
 const getLogin = document.getElementsByClassName('login');
 const getBtn = document.getElementById('btn');
 const getEmail = document.getElementById('e-mail');
-const getPass = document.getElementById('senha')
+const getPass = document.getElementById('senha');
 
 /**
  * Requesito 3: retorna 'Olá, Tryber!' se email e senha certo e 'Email ou senha inválidos.' se inválido;
