@@ -32,13 +32,12 @@ main {
   width: 675px;
   display: flex;
   flex-flow: column wrap;
-  background-color: yellowgreen;
+  background-color: white;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
   background-color: blueviolet;
-  /* align-self: flex-end; */
 }
 
 .radio-container {
