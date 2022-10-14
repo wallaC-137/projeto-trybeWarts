@@ -23,3 +23,12 @@ form {
 #btn {
   height: 25px;
 };
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+}
