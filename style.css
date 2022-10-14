@@ -22,14 +22,22 @@ form {
 
 #btn {
   height: 25px;
-};
+}
 
 main {
   display: flex;
+
 }
 
 #evaluation-form {
   width: 675px;
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
+  background-color: yellowgreen;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  background-color: blueviolet;
+  /* align-self: flex-end; */
 }
