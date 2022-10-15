@@ -3,6 +3,8 @@ const getEmail = document.getElementById('e-mail');
 const getPass = document.getElementById('senha');
 const getBtnSend = document.getElementById('submit-btn');
 const getCheckbox = document.getElementById('agreement');
+const getCounter = document.getElementById('counter');
+const getTextArea = document.getElementById('textarea');
 getBtnSend.disabled = true;
 
 getCheckbox.addEventListener('click', () => {
@@ -26,4 +28,13 @@ const alertMsg = () => {
   });
 };
 
+const funcCount = () => {
+  const num = 500;
+  getTextArea.addEventListener('keyup', () => {
+    const lengthTextArea = getTextArea.value.length;
+    getCounter.innerText = `${num - lengthTextArea}`;
+  });
+};
+
 alertMsg();
+funcCount();
